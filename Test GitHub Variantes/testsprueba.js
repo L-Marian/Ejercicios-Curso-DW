@@ -297,6 +297,23 @@ const listaLibros = [
 			},
 		],
 	},
+	{
+		ISBN: '1105224073079900',
+		titulo: 'Alguna vez',
+		autor: 'Irina Lopez',
+		editorial: 'Pirulo',
+		anio: 2019,
+		prestamos: [			
+			{
+				fechaPrestamo:'16/03/2020' ,
+				fechaDevolucion: '09/04/2020',
+			},
+			{
+				fechaPrestamo:'17/05/2020' ,
+				fechaDevolucion: '',
+			},
+		],
+	},
 ]
 
 
