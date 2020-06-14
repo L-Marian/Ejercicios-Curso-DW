@@ -1,0 +1,59 @@
+.contenedor {
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 20px;
+}
+.botonera {
+ 	float: right; 
+}
+.boton {
+	border: 2px solid black;
+	border-radius: 50px;
+	color: #ffffff;
+	width: 90px;
+	height: 90px;
+	font-size: 80px;
+	line-height: 90px
+	
+}
+.mas {
+	background-color: green;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.menos {
+	background-color: red;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.superior {
+	padding-left: 180px;
+}
+.inferior {
+	padding-left: 180px;
+}
+.trioi {
+	transform: rotate(180deg);
+}
+#silla8 {
+	transform: rotate(-90deg);
+}
+#silla4 {
+	transform: rotate(90deg);
+}
+.central {
+	display: flex;
+	align-items: center;
+}
+.inferior {
+	padding-top: 5px;
+}
+
+.silla {
+	visibility: hidden;
+}
