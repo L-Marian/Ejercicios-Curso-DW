@@ -1,3 +1,10 @@
+/*luego de cargar DOM, identificar elementos que se guardan en variables, y luego en variable lista de elementos para
+poder recorrerlas. Al capturar el click en boton mas, se ejecuta la funcion que para cada elemento de la lista chequea
+si tiene la clase cuya propiedad oculta el elemento y si la tiene la borra.
+Caso contrario para el boton menos, para cada elemento la funcion verifica si no tiene esa clase y la agrega.
+Entiendo que son muy similares y quizas se pueda mejorar pero no se me ocurrio como.*/
+
+
 window.onload = function () {
 
 	const botonMas = document.querySelector('.mas')
@@ -28,7 +35,6 @@ window.onload = function () {
 				return
 			}
 		}
-		
 	}
 
 	function hacerInvisible(listaDeObjetos) {
@@ -47,8 +53,6 @@ window.onload = function () {
 		
 	}
 
-
 	botonMas.addEventListener('click',hacerVisible)
 	botonMenos.addEventListener('click',hacerInvisible)
-
 }
