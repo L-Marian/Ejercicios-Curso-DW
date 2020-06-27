@@ -16,11 +16,11 @@ body {
 	position:absolute;
 	right: 20px;
 	top: 20px;
-	} /* props del div controles de direccion, absolut relativo al frame*/
+} /* props del div controles de direccion, absolut relativo al frame*/
 
 .control.button {
 	padding: 10px;
-	}  /* propiedades de los botones de control en su conjunto*/
+}  /* propiedades de los botones de control en su conjunto*/
 
 
 .upper-line {
@@ -46,8 +46,6 @@ body {
 	width: 40px;
 	height: 40px;
 	margin-left: 10px;
-	
-	
 }
 
 .lower-line:last-child {
@@ -96,9 +94,7 @@ body {
 	bottom: 20px;
 	right: 20px;
 	justify-content: space-around;
-
-
-	} /* props del div controles de color*/
+} /* props del div controles de color*/
 
 .color .button {
 	border: 1px solid black;
@@ -106,7 +102,6 @@ body {
 	width: 40px;
 	height: 40px;
 	flex-direction: row;
-		
 }   /*propiedades de los botones de color en su conjunto*/
 
 .red {
@@ -136,10 +131,6 @@ body {
 	border-radius: 100%;
 	border: 1px solid black;
 	background-color: white;
-	
-	
-	
 }  /* propiedades del div circulo posicion absolut en relacion al frame*/
 
 
-.
