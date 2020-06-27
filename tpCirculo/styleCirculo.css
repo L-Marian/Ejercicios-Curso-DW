@@ -1,0 +1,145 @@
+body {
+	margin:0;
+}
+
+.frame {
+	position: relative;
+	background-color: #FFFACD;
+	height: 100%;
+	width: 100%;
+}
+
+.control {
+	display: inline-block;
+	height: 100px;
+	width: 180px;
+	position:absolute;
+	right: 20px;
+	top: 20px;
+	} /* props del div controles de direccion, absolut relativo al frame*/
+
+.control.button {
+	padding: 10px;
+	}  /* propiedades de los botones de control en su conjunto*/
+
+
+.upper-line {
+	display: flex;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+}
+
+.lower-line {
+	display: flex;
+	height: 50px;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+
+.lower-line .button {
+	flex: 1;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	
+	
+}
+
+.lower-line:last-child {
+	margin-right: 10px;
+}
+
+.upper-line .button {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	align-items: center;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}        /* props del boton control en particular, centrado en upperline*/
+
+
+.text {
+	font-style: 
+}
+
+.txt-up {
+	transform: rotate(90deg);
+} 
+
+.txt-right {
+	transform: rotate(180deg);
+}
+
+.txt-down {
+	transform: rotate(-90deg);
+}
+
+
+.color {
+	height: 50px;
+	width: 180px;
+	display: inline-flex;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	justify-content: space-around;
+
+
+	} /* props del div controles de color*/
+
+.color .button {
+	border: 1px solid black;
+	border-radius: 100px;
+	width: 40px;
+	height: 40px;
+	flex-direction: row;
+		
+}   /*propiedades de los botones de color en su conjunto*/
+
+.red {
+	background-color: #ff0000;
+}
+
+.blue {
+	background-color: #0000ff;
+}
+
+.green {
+	background-color: #00ff00;
+}
+
+.table {
+	display: flex;
+	height:100%;
+	width: 82%;
+	align-items: center;
+	justify-content: center;
+	border: 0.5px solid black;
+}
+
+.circle {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 1px solid black;
+	background-color: white;
+	
+	
+	
+}  /* propiedades del div circulo posicion absolut en relacion al frame*/
+
+
+.
