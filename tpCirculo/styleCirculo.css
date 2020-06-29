@@ -7,6 +7,10 @@ body {
 	background-color: #FFFACD;
 	height: 100%;
 	width: 100%;
+	display: inline-block;
+	/*display:flex;
+	justify-content: center;
+	align-items: center;*/
 }
 
 .control {
@@ -16,7 +20,7 @@ body {
 	position:absolute;
 	right: 20px;
 	top: 20px;
-} /* props del div controles de direccion, absolut relativo al frame*/
+} 
 
 .control.button {
 	padding: 10px;
@@ -66,8 +70,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: #e0e0eb;
 }        /* props del boton control en particular, centrado en upperline*/
-
 
 .text {
 	font-style: 
@@ -85,7 +89,6 @@ body {
 	transform: rotate(-90deg);
 }
 
-
 .color {
 	height: 50px;
 	width: 180px;
@@ -97,12 +100,12 @@ body {
 } /* props del div controles de color*/
 
 .color .button {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	border-radius: 100px;
 	width: 40px;
 	height: 40px;
 	flex-direction: row;
-}   /*propiedades de los botones de color en su conjunto*/
+}   
 
 .red {
 	background-color: #ff0000;
@@ -116,21 +119,14 @@ body {
 	background-color: #00ff00;
 }
 
-.table {
-	display: flex;
-	height:100%;
-	width: 82%;
-	align-items: center;
-	justify-content: center;
-	border: 0.5px solid black;
-}
-
 .circle {
 	height: 100px;
 	width: 100px;
 	border-radius: 100%;
-	border: 1px solid black;
-	background-color: white;
-}  /* propiedades del div circulo posicion absolut en relacion al frame*/
+	background-color: #ff0000;
+	position: absolute;
+	top:260;
+	left:590;            /*el centrado no quedo ok, no pude compatibilizar funcion con flexbox*/
+} 
 
 
